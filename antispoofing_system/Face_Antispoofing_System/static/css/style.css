@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.video-feed {
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login-signup, .signup-form {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form input[type="submit"] {
+    width: calc(100% - 20px); /* Adjusted width for padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+.signup-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+.signup-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+p a {
+    color: blue;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+
+.signup-form h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
